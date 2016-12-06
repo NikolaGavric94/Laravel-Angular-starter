@@ -31,7 +31,16 @@ Vagrant služi kao build menadžer koji na osnovu Vagrantfile-a pravi okruženje
 ```javascript
 composer require laravel/homestead --dev
 ```
-Sa ovom komandom u cmd-u instaliramo homestead. Posle toga potrebno je da nađemo fajl sa imenom Homestead.yaml i da ga otvorimo, zameniti sledeću liniju:
+Sa ovom komandom u cmd-u instaliramo homestead. 
+
+```javascript
+Mac/Linux: php vendor/bin/homestead make
+Windows: vendor\\bin\\homestead make
+```
+
+Sa ovom komandom buildujemo homestead konfiguracioni fajl pod nazivom Homestead.yaml.
+
+Posle toga potrebno je da nađemo fajl sa imenom Homestead.yaml i da ga otvorimo, zameniti sledeću liniju:
 
 ```javascript
 ip: "xx.xx.xx.xx" => ip: "192.168.10.10"
