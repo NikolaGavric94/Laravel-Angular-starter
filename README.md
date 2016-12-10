@@ -65,8 +65,8 @@ angular.module('app', [
     $stateProvider.
     state('home', {
         url: '/',
-        templateUrl: 'partials/front/home/home.html',
-        css: 'partials/front/home/home.css',
+        templateUrl: 'partials/home/home.html',
+        css: 'partials/home/home.css',
         controller: 'HomeCtrl'
     });
 
