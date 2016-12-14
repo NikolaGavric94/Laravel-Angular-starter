@@ -1,0 +1,13 @@
+{
+  "name": "angularjs-starter",
+  "homepage": "https://github.com/NikolaGavric94/Laravel-Angular-starter",
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-ui-router": "^0.3.2",
+    "angular-css": "^1.0.8",
+    "bootstrap": "^3.3.7"
+  }
+}
